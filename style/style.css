@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    background-color: #805AD5;
+    margin: 30vh auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    font-family: 'Poppins', system-ui, sans-serif;
+    overflow: hidden; /* disables scrolling entirely */
+
+
+}
+
+.container{
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: -100px;
+
+    width: 90%;
+    max-width: 400px;
+    border-radius: 20px;
+}
+span{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+
+}
+h1{
+    padding: 20px;
+    color: rgb(255, 247, 10);
+    margin-left: 12rem;
+    font-family: sans-serif;
+    top: 20px;
+    position: relative;
+    top: -190px;
+    left: -15px;
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-weight: 800;
+
+}
+.mascot-emoji {
+    font-size: 8rem; /* size of the fox emoji */
+    line-height: 1;
+    padding-right: 150px;
+  }
+  
+.warning-text{
+    font-size: large;
+    padding: 20px;
+    position: relative;
+    top: -170px;
+    color: orange;
+    width: 100%;
+}
+
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    position: relative;
+    top: -180px;
+    font-weight: 900;
+
+}
+
+button {
+    position: relative;
+    top: -190px;
+    font-size: 1.5rem; /* ~24px, good size */
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+    width: 100%;
+    max-width: 300px; /* optional limit */
+    padding: 12px 20px;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px; /* spacing instead of top:-170px */
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* deep blue */
+    transform: scale(1.05); /* slight grow effect */
+  }
+  
+
+/* Output message */
+#output {
+    position: relative;
+    top: -160px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50; /* Dark gray */
+}
